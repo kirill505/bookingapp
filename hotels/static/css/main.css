@@ -77,7 +77,7 @@ header {
   .catalog .catalog-search {
     width: 100%;
     height: 160px;
-    background: url(/assets/img/catalog.png) 100% 100% no-repeat; }
+    background: url(/static/img/catalog.png) 100% 100% no-repeat; }
     .catalog .catalog-search form .col-md-5, .catalog .catalog-search form .col-md-3, .catalog .catalog-search form .col-md-2 {
       padding-left: 5px;
       padding-right: 5px; }
@@ -111,7 +111,7 @@ header {
       position: relative; }
       .catalog .catalog-filter .filter .filter-header {
         padding: 25px 0;
-        background: url(/assets/img/filter.png) 100% 50% no-repeat; }
+        background: url(/static/img/filter.png) 100% 50% no-repeat; }
         .catalog .catalog-filter .filter .filter-header:before {
           content: '';
           position: absolute;
@@ -186,15 +186,15 @@ header {
     .catalog .hotel-menu ul li {
       padding: 10px 37px; }
       .catalog .hotel-menu ul li:nth-child(1) {
-        background: url(/assets/img/hotel-menu-1.png) 0 50% no-repeat; }
+        background: url(/static/img/hotel-menu-1.png) 0 50% no-repeat; }
       .catalog .hotel-menu ul li:nth-child(2) {
-        background: url(/assets/img/hotel-menu-2.png) 0 50% no-repeat; }
+        background: url(/static/img/hotel-menu-2.png) 0 50% no-repeat; }
       .catalog .hotel-menu ul li:nth-child(3) {
-        background: url(/assets/img/hotel-menu-3.png) 0 50% no-repeat; }
+        background: url(/static/img/hotel-menu-3.png) 0 50% no-repeat; }
       .catalog .hotel-menu ul li:nth-child(4) {
-        background: url(/assets/img/hotel-menu-4.png) 0 50% no-repeat; }
+        background: url(/static/img/hotel-menu-4.png) 0 50% no-repeat; }
       .catalog .hotel-menu ul li:nth-child(5) {
-        background: url(/assets/img/hotel-menu-5.png) 0 50% no-repeat; }
+        background: url(/static/img/hotel-menu-5.png) 0 50% no-repeat; }
       .catalog .hotel-menu ul li a {
         font-size: 14px;
         color: rgba(25, 45, 69, 0.87);
@@ -221,9 +221,9 @@ header {
       display: block;
       width: 16px;
       height: 16px;
-      background: url(/assets/img/star.png) 100% 100% no-repeat; }
+      background: url(/static/img/star.png) 100% 100% no-repeat; }
       .catalog .hotel .hotel-header-rate span.active {
-        background: url(/assets/img/star-active.png) 100% 100% no-repeat; }
+        background: url(/static/img/star-active.png) 100% 100% no-repeat; }
     .catalog .hotel .hotel-header-rate .hotel-header-rate-count {
       font-size: 14px;
       padding-right: 10px;
@@ -242,7 +242,7 @@ header {
     .catalog .hotel .hotel-description-more {
       cursor: pointer;
       display: inline-block;
-      background: url(/assets/img/more.png) 100% 50% no-repeat;
+      background: url(/static/img/more.png) 100% 50% no-repeat;
       color: #E33A59;
       padding-left: 30px;
       height: 20px;
@@ -288,7 +288,7 @@ header {
               position: absolute;
               bottom: 5px;
               left: 10px;
-              background: url(/assets/img/camera.png) 0 100% no-repeat;
+              background: url(/static/img/camera.png) 0 100% no-repeat;
               color: #fff;
               padding-left: 22px; }
           .catalog .hotel .hotel-rooms .rooms .room .room-info {
@@ -302,13 +302,13 @@ header {
               font-weight: bold;
               color: rgba(25, 45, 69, 0.87); }
             .catalog .hotel .hotel-rooms .rooms .room .room-info .room-info-cutlery {
-              background: url(/assets/img/cutlery.png) 0% 50% no-repeat;
+              background: url(/static/img/cutlery.png) 0% 50% no-repeat;
               color: rgba(25, 45, 69, 0.54);
               padding-left: 15px;
               font-size: 12px; }
             .catalog .hotel .hotel-rooms .rooms .room .room-info .room-info-more {
               color: #E33A59;
-              background: url(/assets/img/more.png) 100% 50% no-repeat;
+              background: url(/static/img/more.png) 100% 50% no-repeat;
               display: inline-block;
               padding-right: 20px;
               cursor: pointer;
@@ -349,7 +349,7 @@ header {
               width: 11px;
               height: 12px;
               padding: 0 7px;
-              background: url(/assets/img/user-count.png) 100% 100% no-repeat; }
+              background: url(/static/img/user-count.png) 100% 100% no-repeat; }
           .catalog .hotel .hotel-rooms .rooms .room .room-cost {
             display: table-cell;
             width: 170px;
@@ -391,11 +391,11 @@ header {
           display: block;
           float: left;
           margin-right: 3px;
-          background: url(/assets/img/review-rate.png) 100% 100% no-repeat;
+          background: url(/static/img/review-rate.png) 100% 100% no-repeat;
           width: 14px;
           height: 14px; }
           .catalog .hotel .reviews .review .review-head-rate span.active {
-            background: url(/assets/img/review-rate-active.png) 100% 100% no-repeat; }
+            background: url(/static/img/review-rate-active.png) 100% 100% no-repeat; }
         .catalog .hotel .reviews .review .review-text {
           font-size: 14px;
           color: rgba(25, 45, 69, 0.87); }
@@ -438,12 +438,12 @@ header {
         .catalog .hotel .nums .nums-rate span {
           width: 18px;
           height: 18px;
-          background: url(/assets/img/nums-rate.png) 100% 100% no-repeat;
+          background: url(/static/img/nums-rate.png) 100% 100% no-repeat;
           display: block;
           float: left;
           margin-right: 3px; }
           .catalog .hotel .nums .nums-rate span.active {
-            background: url(/assets/img/nums-rate-active.png) 100% 100% no-repeat; }
+            background: url(/static/img/nums-rate-active.png) 100% 100% no-repeat; }
       .catalog .hotel .nums .nums-rate-cnt {
         font-size: 12px;
         display: inline-block; }

@@ -1,0 +1,271 @@
+{% extends 'hotels/base_detail.html' %}
+
+{% block content %}
+<div class="col-md-9 hotel">
+  <div class="row">
+
+    <div class="d-flex justify-content-between align-items-center hotel-header">
+      <div>
+        <h1>{{ hotel.name }}</h1>
+        <div class="hotel-header-place">{{ hotel.location }}</div>
+      </div>
+
+      <div class="hotel-header-rate float-right">
+        <div class="hotel-header-rate-count float-left">317</div>
+        <span class="active"></span>
+        <span class="active"></span>
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="hotel-slider owl-carousel owl-theme">
+      <div class="item">
+        <img src="/static/img/card-img.png">
+      </div>
+      <div class="item">
+        <img src="/static/img/card-img2.png">
+      </div>
+      <div class="item">
+        <img src="/static/img/card-img.png">
+      </div>
+      <div class="item">
+        <img src="/static/img/card-img2.png">
+      </div>
+    </div>
+
+    <div class="hotel-description">
+      <p>{{ hotel.text}}</p>
+    </div>
+    <div class="hotel-description-more">Подробнее</div>
+
+    <div class="hotel-rooms">
+      <h3>Номера и цены</h3>
+
+      <div class="hotel-rooms-filter">
+        <div class="form-input float-left mr-3">
+          <input type="text" name="date" placeholder="прибытие-выезд">
+        </div>
+        <div class="form-input float-left">
+          <input type="text" name="count" placeholder="Кол-во гостей">
+        </div>
+      </div>
+
+      <div class="rooms">
+        <div class="titles">
+          <div class="th">Наименование</div>
+          <div class="th"></div>
+          <div class="th text-center">Вместимость</div>
+          <div class="th text-center">Цена</div>
+        </div>
+
+        <div class="room">
+          <div class="room-img position-relative">
+            <img src="/static/img/room.png">
+            <div class="room-img-count">4</div>
+          </div>
+          <div class="room-info">
+            <div class="room-info-name">
+              Летние номера эконом (15 м²)
+            </div>
+            <div class="room-info-cutlery">
+              без питания
+            </div>
+            <div class="room-info-list">
+              <ul>
+                <li>Журнальный столик</li>
+                <li>Раздельные кровати</li>
+                <li>Балкон/терраса</li>
+                <li>Отопление</li>
+              </ul>
+            </div>
+            <div class="room-info-more te">
+              подробнее
+            </div>
+          </div>
+          <div class="room-count">
+            <div class="d-flex justify-content-center align-items-center">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="room-cost text-center">
+            <div class="room-cost-value">2 000 Р</div>
+            <span>в сутки</span>
+            <button class="text-uppercase">забронировать</button>
+          </div>
+          <div class="room-detail">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="comfort">
+      <h3>Удобства</h3>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <ul>
+            <li>Пляж (первая линия)</li>
+            <li>Бесплатная парковка</li>
+            <li>Место для пикника</li>
+            <li>Терраса для загара</li>
+            <li>Бассейн</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <ul>
+            <li>Пляж (первая линия)</li>
+            <li>Бесплатная парковка</li>
+            <li>Место для пикника</li>
+            <li>Терраса для загара</li>
+            <li>Бассейн</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <ul>
+            <li>Пляж (первая линия)</li>
+            <li>Бесплатная парковка</li>
+            <li>Место для пикника</li>
+            <li>Терраса для загара</li>
+            <li>Бассейн</li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="" class="comfort_more">Показать все удобства (27)</a>
+    </div>
+
+    <div class="living">
+      <h3>Порядок проживания</h3>
+
+      <div class="row">
+        <div class="col-lg-4">
+          Заезд<br>
+          Выезд<br>
+          Предоплата<br>
+          Отмена<br>
+          Размещение детей<br>
+        </div>
+        <div class="col-lg-8">
+          11:00<br>
+          10:00<br>
+          Неоходимо внести предоплату  в течении 2 суток после получения подтверждения <br>
+          Условия отмены будут указаны при подтверждении<br>
+          Бесплатно без предоставления места до 2 лет<br>
+        </div>
+      </div>
+    </div>
+
+    <div class="nums">
+      <div class="nums-rate float-left">
+        <span class="active"></span>
+        <span class="active"></span>
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nums-rate-cnt ml-3">оценено 317 чел</div>
+
+      <div class="num-rate-panel">
+        <span>5 звезд</span>
+
+        <div class="num-rate-panel-val">
+          <div class="fill" style="width: 70%;"></div>
+        </div>
+      </div>
+      <div class="num-rate-panel">
+        <span>4 звезды</span>
+
+        <div class="num-rate-panel-val">
+          <div class="fill" style="width: 50%;"></div>
+        </div>
+      </div>
+      <div class="num-rate-panel">
+        <span>3 звезды</span>
+
+        <div class="num-rate-panel-val">
+          <div class="fill" style="width: 40%;"></div>
+        </div>
+      </div>
+      <div class="num-rate-panel">
+        <span>2 звезды</span>
+
+        <div class="num-rate-panel-val">
+          <div class="fill" style="width: 20%;"></div>
+        </div>
+      </div>
+      <div class="num-rate-panel">
+        <span>1 звезда</span>
+
+        <div class="num-rate-panel-val">
+          <div class="fill" style="width: 10%;"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <h3>Отзывы</h3>
+
+      <div class="review d-flex">
+        <div class="review-head">
+          <div class="review-head-name">Игорь Королев</div>
+          <div class="review-head-date">июль 2014</div>
+
+          <div class="review-head-rate">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="review-text">
+          не соответствует фото реальности, все гораздо лучше....как обьяснил хозяин, работы по улучшению продолжаются непрерывно питание не предоставляется....это скорее не база отдыха, это как дача, посторонних на территории нет никого, и вас ни кто не ограничивает в дровах и во времени.....
+        </div>
+      </div>
+      <div class="review d-flex">
+        <div class="review-head">
+          <div class="review-head-name">Игорь Королев</div>
+          <div class="review-head-date">июль 2014</div>
+
+          <div class="review-head-rate">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="review-text">
+          не соответствует фото реальности, все гораздо лучше....как обьяснил хозяин, работы по улучшению продолжаются непрерывно питание не предоставляется....это скорее не база отдыха, это как дача, посторонних на территории нет никого, и вас ни кто не ограничивает в дровах и во времени.....
+        </div>
+      </div>
+      <div class="review d-flex">
+        <div class="review-head">
+          <div class="review-head-name">Игорь Королев</div>
+          <div class="review-head-date">июль 2014</div>
+
+          <div class="review-head-rate">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="review-text">
+          не соответствует фото реальности, все гораздо лучше....как обьяснил хозяин, работы по улучшению продолжаются непрерывно питание не предоставляется....это скорее не база отдыха, это как дача, посторонних на территории нет никого, и вас ни кто не ограничивает в дровах и во времени.....
+        </div>
+      </div>
+
+      <div class="review-buttons">
+        <button class="float-right">оставить отзыв</button>
+        <div class="review-buttons-text float-right mr-3">Оставлять отзывы могут только<br>гости отдыхавшие на базе</div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
